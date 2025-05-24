@@ -19,7 +19,7 @@ root.title("Login Window")
 
 root.geometry('350x500')
 root.configure(background='#0096DC')
-img=Image.open('flipkart-icon.png')
+img=Image.open('Wallpapers/flipkart-icon.png')
 resized_img=img.resize((70,70))
 img=ImageTk.PhotoImage(resized_img)
 img_label =Label(root,image=img)
